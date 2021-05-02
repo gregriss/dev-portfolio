@@ -1,0 +1,12 @@
+header {
+    display: grid;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+Link {
+    text-decoration: none;
+}

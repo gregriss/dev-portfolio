@@ -1,17 +1,26 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Header from './components/header';
-import Footer from './components/footer';
-import Home from './pages/home';
-import About from './pages/about';
-import Portfolio from './pages/portfolio';
-import Contact from './pages/contact';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import Wrapper from './components/wrapper/wrapper';
+import Home from './pages/home/home';
+import About from './pages/about/about';
+import Portfolio from './pages/portfolio/portfolio';
+import Contact from './pages/contact/contact';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      {/* <header className="App-header">
+    <Router>
+      <div className="App">
+        <Header />
+        <Wrapper >
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -25,8 +34,10 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Footer />
-    </div>
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
