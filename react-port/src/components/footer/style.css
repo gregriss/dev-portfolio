@@ -2,13 +2,29 @@ footer {
     position: absolute;
     bottom: 0;
     margin: 0;
-    height: 15%;
+    height: 10vmax;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: #3b3b3b;
     color: #e7e7e7;
     font-size: 120%;
+}
+
+.footer-links {
+    color:rgb(255, 249, 239); 
+    font-size: 1.4rem;
+    /* margin: 10px 7px 7px 7px; */
+    margin: 0.8%;
+    padding: 5px;
+    opacity: 0.8;
+    /* opacity: 0.95; */
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.hide {
+    display: none;
 }
