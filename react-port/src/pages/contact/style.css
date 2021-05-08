@@ -1,0 +1,53 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: left;
+    height: 100%;
+    width: auto;
+    width: clamp(500px, 70%, 800px);
+}
+
+input, textarea, label, button {
+    font-size: 115%;
+    padding: 0.25rem;
+}
+
+textarea {
+    font-family: sans-serif;
+    line-height: 24px;
+}
+button {
+    background: #3b3b3b;
+    color: #e7e7e7;
+    margin: 0.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+.form-field {
+    display: flex;
+    flex-flow: column;
+    margin: 0.5rem;
+}
+
+.icon {
+    margin: 0px 0px -7px 7px;
+}
+
+.contact-h2 {
+    font-size: 185%;
+    margin: 3rem 0.5rem 1.5rem 0.5rem;
+}
