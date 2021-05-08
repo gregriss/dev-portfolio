@@ -1,9 +1,38 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 // import './style.css';
 
-function Project() {
+function Project(props) {
+
     return (
-        <div>Project</div>
+        <div>
+            <h3>
+                {props.title}
+            </h3>
+            <img
+                src={props.image}
+                alt={props.title}
+                style={{ height: '400px', width: 'auto' }}
+            />
+            <Link to={{
+                pathname: `${props.repo}`
+            }}
+                target="_blank"
+                className="port-link"
+                style={{ display: 'block' }}
+            >
+                Code
+            </Link>
+
+            <Link to={{
+                pathname: `${props.deployment}`
+            }}
+                style={{ display: 'block' }}
+            >
+                Live Site
+            </Link>
+
+        </div>
     )
 }
 
