@@ -3,9 +3,20 @@ import Project from '../../components/project/project';
 
 function Portfolio() {
     const portStyles = {
+        main: {
+            display: 'grid',
+            margin: '1rem'
+            // justifyContent: 'center',
+            // flexFlow: 'row wrap'
+        },
         div: {
-            display: 'flex',
-            flexFlow: 'row wrap'
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))',
+            gap: '2rem',
+            marginBottom: '300px'
+        },
+        h2: {
+            fontSize: '180%'
         }
     }
     const projects = [
@@ -59,11 +70,11 @@ function Portfolio() {
         },
     ]
     return (
-        <div className="container" style={portStyles.div}>
-            <h2>
+        <main className="container" style={portStyles.main}>
+            <h2 style={portStyles.h2}>
                 My Projects
             </h2>
-            <div className="projects-content">
+            <div className="projects-content" style={portStyles.div}>
                 {projects.map(project => (
                     <Project
                         key={project.id}
@@ -71,7 +82,7 @@ function Portfolio() {
                     />
                 ))}
             </div>
-        </div>
+        </main>
     )
 }
 

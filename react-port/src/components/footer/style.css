@@ -1,16 +1,16 @@
 footer {
-    /* position: sticky;
+    position: fixed;
     bottom: 0;
-    margin: 0; */
-    height: 12vmax;
+    margin: 0; 
+    height: 8vmax;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
     background: #3b3b3b;
     color: #e7e7e7;
     font-size: 120%;
+    opacity: 0.95;
 }
 
 .footer-links {
