@@ -10,7 +10,7 @@ function Project(props) {
             <img
                 src={props.image}
                 alt={props.title}
-                style={{ height: '400px', width: 'auto' }}
+                style={{ height: 'auto', width: 'clamp(400px, 600px, 800px)' }}
             />
             <Link to={{
                 pathname: `${props.repo}`

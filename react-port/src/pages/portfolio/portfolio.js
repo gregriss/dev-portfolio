@@ -5,18 +5,29 @@ function Portfolio() {
     const portStyles = {
         main: {
             display: 'grid',
-            margin: '1rem'
+            margin: '0 auto'
+            // padding: '2rem'
             // justifyContent: 'center',
             // flexFlow: 'row wrap'
         },
         div: {
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))',
-            gap: '2rem',
-            marginBottom: '300px'
+            gap: '1rem',
+            // display: 'flex',
+            // flexFlow: 'column wrap',
+            // alignItems: 'flex-start',
+            // marginBottom: '300px',
+            // width: 'clamp(800px, 100%, 1600px)',
+            border: '1px solid black'
         },
+
         h2: {
             fontSize: '180%'
+        },
+
+        img: {
+            margin: '0px 0px -9px 3px'
         }
     }
     const projects = [
@@ -73,6 +84,11 @@ function Portfolio() {
         <main className="container" style={portStyles.main}>
             <h2 style={portStyles.h2}>
                 My Projects
+                <img
+                    src="assets/code-icon-lg.svg"
+                    alt="code icon"
+                    style={portStyles.img}
+                />
             </h2>
             <div className="projects-content" style={portStyles.div}>
                 {projects.map(project => (
