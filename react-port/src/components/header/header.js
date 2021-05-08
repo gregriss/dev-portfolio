@@ -5,9 +5,11 @@ function Header() {
     return (
         <header className="header">
             <nav>
-                <Link to="/">
-                    Greg Riss
-                </Link>
+                <div className="brand-div">
+                    <Link to="/">
+                        Greg Riss - Web Developer
+                    </Link>
+                </div>
                 <div>
                     <ul>
                         <li>

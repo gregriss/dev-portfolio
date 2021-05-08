@@ -1,14 +1,31 @@
 header {
-    height: 8vmax;
+    /* height: 8vmax; */
+    height: 15%;
+}
+
+nav {
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-flow: column nowrap;
 }
 
 ul {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
 }
 
+.brand-div {
+    font-size: 175%;
+    color: black;
+    text-align: left;
+    padding: 1rem;
+}
+
+
+
+/* why doesn't this work? */
 Link {
     text-decoration: none;
 }
