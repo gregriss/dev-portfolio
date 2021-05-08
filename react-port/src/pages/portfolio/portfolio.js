@@ -2,7 +2,6 @@ import React from 'react';
 import Project from '../../components/project/project';
 
 function Portfolio() {
-
     const portStyles = {
         div: {
             display: 'flex',
@@ -59,7 +58,6 @@ function Portfolio() {
             tech: ['JavaScript', 'jQuery', 'HTML/CSS']
         },
     ]
-
     return (
         <div className="container" style={portStyles.div}>
             <h2>
@@ -73,14 +71,6 @@ function Portfolio() {
                     />
                 ))}
             </div>
-            {/* <Link
-                to={{
-                    pathname: "https://github.com/Patrick-Kaczmar/Path-Finder"
-                }}
-                target="_blank"
-                className="port-link">
-                Repo
-            </Link> */}
         </div>
     )
 }

@@ -23,15 +23,14 @@ function Project(props) {
             >
                 Code
             </Link>
-
             <Link to={{
                 pathname: `${props.deployment}`
             }}
+                target="_blank"
                 style={{ display: 'block' }}
             >
                 Live Site
             </Link>
-
         </div>
     )
 }
