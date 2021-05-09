@@ -1,6 +1,5 @@
 import './App.css';
-
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, HashRouter as Router, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Wrapper from './components/wrapper/wrapper';
@@ -11,18 +10,18 @@ import Contact from './pages/contact/contact';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <HashRouter basename="/dev-portfolio">
+      <Router>
         <Header />
         <Wrapper >
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/dev-portfolio/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route path="/" component={Footer} />
         </Wrapper>
-        <Footer />
-      </div>
-    </Router>
+      </Router>
+    </HashRouter>
   );
 }
 
