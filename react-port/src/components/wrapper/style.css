@@ -1,4 +1,6 @@
 .wrapper {
-    background: rgb(214, 214, 214);
-    /* height: 200vmax; */
+    /* background: rgb(214, 214, 214); */
+    height: 100vh;
+    z-index: -1;
+     /* height: 200vmax; */
 }

@@ -4,7 +4,8 @@ function About() {
     const aboutStyles = {
         main: {
             display: 'grid',
-            placeItems: 'center'
+            placeItems: 'center',
+            fontSize: '120%'
         },
 
         div: {
@@ -23,9 +24,9 @@ function About() {
                         <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                     </svg>
                 </h1>
-                <p className="about-me-p lead">
+                <p>
                     I'm a Full Stack Web Developer with an eye for detail and a passion for clarity. I've always been keen at
-                    spotting mistakes, even in published books and magazines. My skills include HTML, CSS, JavaScript, React,
+                    spotting mistakes, and enjoy clean, polished code and User Interfaces. My skills include HTML, CSS, JavaScript, React,
                     jQuery, Node.js, APIs, Express, Handlebars, SQL, and NoSQL.
                 </p>
             </div>

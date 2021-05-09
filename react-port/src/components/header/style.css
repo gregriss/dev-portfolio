@@ -1,6 +1,8 @@
 header {
+    background: #e7e7e7;
     /* height: 8vmax; */
     height: 15%;
+    box-shadow: 1px 1px 10px 5px dimgray;
 }
 
 nav {
@@ -16,6 +18,9 @@ ul {
     gap: 0.25rem;
 }
 
+li {
+    color: #e7e7e7;
+}
 .brand-div {
     font-size: 175%;
     color: black;
@@ -27,5 +32,6 @@ ul {
 
 /* why doesn't this work? */
 Link {
+    color: #e7e7e7;
     text-decoration: none;
 }

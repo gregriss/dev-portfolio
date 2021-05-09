@@ -10,7 +10,7 @@ import linkedIn from '../../assets/linkedin-icon.svg';
 function Footer() {
     return (
         <footer>
-            <span style={{ fontSize: '125%' }}>
+            <span style={{ fontSize: '110%' }}>
                 608-513-4734
             </span>
             <Link

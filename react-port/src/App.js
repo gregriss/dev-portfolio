@@ -15,11 +15,12 @@ function App() {
         <Header />
         <Wrapper >
           <Route exact path="/" component={Home} />
-          <Route exact path="/dev-portfolio/about" component={About} />
+          <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route path="/contact" component={Contact} />
           <Route path="/" component={Footer} />
         </Wrapper>
+        <Footer />
       </Router>
     </HashRouter>
   );

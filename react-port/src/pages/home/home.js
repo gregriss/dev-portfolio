@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 function Home() {
     const styles = {
         main: {
-            // height: '50%',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            flexFlow: 'column',
-            padding: '3vmax',
-            border: '1px solid black'
+            // height: '150vh',
+            textAlign: 'center',
+            // display: 'flex',
+            // justifyContent: 'center',
+            // alignItems: 'center',
+            // flexFlow: 'column',
+            padding: '6vmax 3vmax',
+            // border: '1px solid black'
         },
 
         button: {

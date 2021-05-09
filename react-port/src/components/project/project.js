@@ -12,26 +12,31 @@ function Project(props) {
                 alt={props.title}
                 style={{ width: 'clamp(300px, 600px, 800px)' }}
             />
-            <Link to={{
+            {/* <Link to={{
                 pathname: `${props.repo}`
-            }}
+            }} */}
+            <a href={props.repo}
                 target="_blank"
                 className="port-link"
                 style={{ display: 'block', margin: '5px', fontSize: '120%' }}
             >
                 Code
-            </Link>
-            <Link to={{
+            </a>
+            {/* </Link> */}
+            {/* <Link to={{
                 pathname: `${props.deployment}`
-            }}
+            }} */}
+            <a href={props.deployment}
                 target="_blank"
                 style={{ display: 'block', margin: '5px', fontSize: '120%' }}
             >
                 Live Site
-            </Link>
+            </a>
+            {/* </Link> */}
             <ul>{props.tech.map(item => (
                 <li style={{ backgroundColor: '#00004d', color: 'white', height: '40px', padding: '5px', textAlign: 'center', alignSelf: 'center', borderRadius: '20px' }}>{`${item}`}</li>
-            ))}</ul>
+            ))}
+            </ul>
         </div>
     )
 }

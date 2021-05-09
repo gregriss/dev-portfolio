@@ -15,19 +15,12 @@ function Portfolio() {
             margin: '0 auto',
             height: 'auto',
             width: '100%',
-            // padding: '2rem'
-            // justifyContent: 'center',
-            // flexFlow: 'row wrap'
+            padding: '50px 0 400px 0'
         },
+
         div: {
             display: 'grid',
-            gridTemplateRows: 'repeat(auto-fit, minmax(400px, 800px)',
-            // display: 'flex',
-            // flexFlow: 'row wrap',
-            // alignItems: 'flex-start',
-            // marginBottom: '300px',
-            // width: 'clamp(800px, 100%, 1600px)',
-            // border: '1px solid black'
+            gridTemplateRows: 'repeat(auto-fit, minmax(400px, 800px)'
         },
 
         h2: {

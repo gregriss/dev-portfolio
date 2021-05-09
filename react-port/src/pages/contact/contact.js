@@ -1,13 +1,14 @@
 import React from 'react';
 import './style.css';
+import envelope from '../../assets/envelope-icon.svg';
 function Contact() {
     return (
         <div className="container">
             <div className="contact-content">
-                <form netlify>
+                <form>
                     <h2 className="contact-h2">
                         Contact
-                    <img src="assets/envelope-icon.svg" className="icon" alt="envelope icon" />
+                    <img src={envelope} className="icon" alt="envelope icon" />
                     </h2>
                     <div className="form-field">
                         <label className="form-label">Name</label>
@@ -18,7 +19,7 @@ function Contact() {
                         <input name="email" type="email" id="emailInput" className="form-control" placeholder="Email" />
                     </div>
                     <div className="form-field">
-                        <label for="userMessage" className="form-label">Message</label>
+                        <label htmlFor="userMessage" className="form-label">Message</label>
                         <textarea id="userMessage" className="form-control" name="userMessage" rows="3"
                             placeholder="Type your message..."></textarea>
                     </div>
