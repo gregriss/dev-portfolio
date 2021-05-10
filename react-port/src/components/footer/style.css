@@ -7,10 +7,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #3b3b3b;
+    /* background: #3b3b3b; */
+    background: hsl(255, 48%, 10%);
     color: #e7e7e7;
     font-size: 120%;
-    opacity: 0.85;
+    opacity: 0.8;
 }
 
 .footer-links {

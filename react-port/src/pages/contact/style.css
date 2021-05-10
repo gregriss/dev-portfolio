@@ -5,6 +5,7 @@
 }
 
 .contact-content {
+    color: rgb(235, 235, 235);
     height: auto;
     width: 100%;
     margin: 1rem;
@@ -29,7 +30,8 @@ textarea {
     line-height: 24px;
 }
 button {
-    background: #3b3b3b;
+    /* background: #3b3b3b; */
+    background: hsl(255, 48%, 30%);
     color: #e7e7e7;
     margin: 0.5rem;
     padding: 10px;

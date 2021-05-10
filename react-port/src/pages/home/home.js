@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function Home() {
     const styles = {
         main: {
-            // height: '150vh',
+            color: '#e7e7e7',
+            opacity: 0.95,
             textAlign: 'center',
             // display: 'flex',
             // justifyContent: 'center',

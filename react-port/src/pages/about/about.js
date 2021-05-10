@@ -5,7 +5,8 @@ function About() {
         main: {
             display: 'grid',
             placeItems: 'center',
-            fontSize: '120%'
+            fontSize: '120%',
+            color: 'rgb(235, 235, 235)'
         },
 
         div: {

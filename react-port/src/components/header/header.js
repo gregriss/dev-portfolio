@@ -6,8 +6,11 @@ function Header() {
         <header className="header">
             <nav>
                 <div className="brand-div">
+
                     <Link to="/">
-                        Greg Riss - Web Developer
+                        <button className="brand-btn">
+                            Greg Riss - Web Developer
+                            </button>
                     </Link>
                 </div>
                 <div>
@@ -21,8 +24,10 @@ function Header() {
                                         : "nav-link"
                                 }
                             >
-                                Home
-                                </Link>
+                                <span className="header-span">
+                                    Home
+                              </span>
+                            </Link>
                         </li>
                         <li>
                             <Link
@@ -30,7 +35,9 @@ function Header() {
                                 className={
                                     window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                             >
-                                My Projects
+                                <span className="header-span">
+                                    My Projects
+                              </span>
                             </Link>
                         </li>
                         <li>
@@ -42,8 +49,10 @@ function Header() {
                                         : "nav-link"
                                 }
                             >
-                                Contact
-                                </Link>
+                                <span className="header-span">
+                                    Contact
+                            </span>
+                            </Link>
                         </li>
                         <li>
                             <Link
@@ -54,8 +63,10 @@ function Header() {
                                         : "nav-link"
                                 }
                             >
-                                About Me
-                                </Link>
+                                <span className="header-span">
+                                    About Me
+                              </span>
+                            </Link>
                         </li>
                     </ul>
                 </div>

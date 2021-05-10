@@ -14,13 +14,13 @@ function Portfolio() {
             display: 'grid',
             margin: '0 auto',
             height: 'auto',
-            width: '100%',
+            width: 'clamp(320px, 100%, 1000px)',
             padding: '50px 0 400px 0'
         },
 
         div: {
             display: 'grid',
-            gridTemplateRows: 'repeat(auto-fit, minmax(400px, 800px)'
+            gridTemplateRows: 'repeat(auto-fit, minmax(300px, 1fr)'
         },
 
         h2: {
