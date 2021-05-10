@@ -2,7 +2,6 @@ body {
   background: url(./assets/images/niveri-code-img.jpg);
   background-size: cover;
   background-position: center left;
-  
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -7,7 +7,7 @@ For this project, I built and deployed a responsive personal portfolio with Reac
 
 The project is deployed [HERE](https://gregriss.github.io/dev-portfolio)
 
-The code can be viewed [HERE] (https://github.com/gregriss/dev-portfolio.git)  
+The code can be viewed [HERE](https://github.com/gregriss/dev-portfolio.git)  
 
 ## Table of Contents  
 

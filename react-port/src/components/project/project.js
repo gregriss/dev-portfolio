@@ -3,14 +3,16 @@ import React from 'react';
 
 function Project(props) {
     return (
-        <div style={{ background: '#808080', padding: '20px 40px 60px 40px' }}>
-            <h3 style={{ fontSize: '150%' }}>
+        <div style={{ padding: '20px 40px 60px 40px' }}>
+            <h3 style={{ fontSize: '150%', color: '#e7e7e7' }}>
                 {`${props.id}. ${props.title}`}
             </h3>
             <img
                 src={props.image}
                 alt={props.title}
-                style={{ width: 'clamp(300px, 600px, 800px)' }}
+                style={{
+                    width: 'clamp(300px, 600px, 800px)'
+                }}
             />
             {/* <Link to={{
                 pathname: `${props.repo}`
@@ -19,7 +21,12 @@ function Project(props) {
                 target="_blank"
                 rel="noreferrer"
                 className="port-link"
-                style={{ display: 'block', margin: '5px', fontSize: '120%', fontWeight: 'bold' }}
+                style={{
+                    display: 'block',
+                    margin: '5px',
+                    fontSize: '125%',
+                    fontWeight: 'bold'
+                }}
             >
                 Code
             </a>
@@ -30,13 +37,33 @@ function Project(props) {
             <a href={props.deployment}
                 target="_blank"
                 rel="noreferrer"
-                style={{ display: 'block', margin: '5px', fontSize: '120%', fontWeight: 'bold' }}
+                style={{
+                    display: 'block',
+                    margin: '5px',
+                    fontSize: '125%',
+                    fontWeight: 'bold'
+                }}
             >
                 Live Site
             </a>
             {/* </Link> */}
             <ul>{props.tech.map(item => (
-                <li style={{ backgroundColor: '#00004d', color: '#e7e7e7', fontSize: '110%', fontWeight: 'normal', height: '40px', padding: '5px', textAlign: 'center', alignSelf: 'center', borderRadius: '20px' }}>{`${item}`}</li>
+                <li style={{
+                    display: 'grid',
+                    placeItems: 'center',
+                    backgroundColor: '#00004d',
+                    color: '#e7e7e7',
+                    fontSize: '105%',
+                    fontWeight: 'normal',
+                    textAlign: 'center',
+                    margin: '3px',
+                    height: '50px',
+                    border: '1px solid #e7e7e7',
+                    borderRadius: '20px'
+                }}
+                >
+                    {`${item}`}
+                </li>
             ))}
             </ul>
         </div>

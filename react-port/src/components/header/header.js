@@ -10,8 +10,8 @@ function Header() {
 
                     <Link to="/">
                         <button className="brand-btn">
-                            Greg Riss - Web Developer
-                            </button>
+                            Greg Riss
+                        </button>
                     </Link>
                 </div>
                 <div>
