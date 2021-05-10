@@ -17,18 +17,14 @@ The code can be viewed [HERE](https://github.com/gregriss/dev-portfolio.git)
 
 ## Usage
 
-This website should be simple and clear to use. Use the navigation at the top of the page to find the portfolio and contact pages.
+This website should be simple and clear to use. Use the navigation at the top of the page to find the Projects, Contact, and About Me pages.
 
 Here's a screenshot of the Homepage:
-![Greg's Homepage](assets/images/about-screenshot.png)
+![Greg's Homepage](public/homepage.png)
 
 When on the Portfolio page, click on the image or one of the links below it to view the deployed application or its GitHub repository. 
 
-![Portfolio](assets/images/portfolio-screenshot.png)
-
-To contact me via email, type your name and message in to the input fields on the Contact page. Otherwise, note my phone number and links to my GitHub profile, email address, Linkedin profile, and Resume at the bottom of each page.
-
-![Contact](assets/images/contact-screenshot.png)
+![Portfolio](public/projects.png)
 
 
 ## License
