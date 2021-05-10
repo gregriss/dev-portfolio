@@ -21,7 +21,8 @@ function Home() {
             marginTop: '2rem',
             fontSize: 'x-large',
             background: 'hsl(230, 95%, 60%)',
-            color: 'white'
+            color: 'white',
+            cursor: 'pointer'
         }
     }
     return (

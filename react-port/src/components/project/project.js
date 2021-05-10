@@ -23,7 +23,10 @@ function Project(props) {
                 className="port-link"
                 style={{
                     display: 'block',
+                    background: 'black',
+                    filter: 'brightness(2)',
                     margin: '5px',
+                    padding: '8px',
                     fontSize: '125%',
                     fontWeight: 'bold'
                 }}
@@ -39,7 +42,10 @@ function Project(props) {
                 rel="noreferrer"
                 style={{
                     display: 'block',
+                    background: 'black',
+                    filter: 'brightness(2)',
                     margin: '5px',
+                    padding: '8px',
                     fontSize: '125%',
                     fontWeight: 'bold'
                 }}
@@ -57,6 +63,7 @@ function Project(props) {
                     fontWeight: 'normal',
                     textAlign: 'center',
                     margin: '3px',
+                    padding: '0px 3px',
                     height: '50px',
                     border: '1px solid #e7e7e7',
                     borderRadius: '20px'
