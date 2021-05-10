@@ -8,15 +8,19 @@ import github from '../../assets/github-icon-lg.svg';
 import linkedIn from '../../assets/linkedin-icon.svg';
 
 function Footer() {
+    // const footerItems = [
+    //     {
+    //         id: 1
+
+    //     }
+    // ]
     return (
         <footer>
             <span style={{ fontSize: '110%' }}>
                 608-513-4734
             </span>
             <Link
-                to={{
-                    pathname: "mailto:gregriss23@gmail.com"
-                }}
+                to="mailto:gregriss23@gmail.com"
                 id="email"
                 className="footer-links"
             >

@@ -14,7 +14,7 @@ function Portfolio() {
             display: 'grid',
             margin: '0 auto',
             height: 'auto',
-            width: 'clamp(320px, 100%, 1000px)',
+            width: 'clamp(320px, 100%, 1400px)',
             padding: '50px 0 400px 0'
         },
 
@@ -24,7 +24,8 @@ function Portfolio() {
         },
 
         h2: {
-            fontSize: '180%'
+            fontSize: '180%',
+            color: '#e7e7e7'
         },
 
         img: {

@@ -5,16 +5,17 @@ function Home() {
     const styles = {
         main: {
             color: '#e7e7e7',
-            opacity: 0.95,
             textAlign: 'center',
-            // display: 'flex',
-            // justifyContent: 'center',
-            // alignItems: 'center',
-            // flexFlow: 'column',
-            padding: '6vmax 3vmax',
-            // border: '1px solid black'
+            padding: '8vmax 3vmax'
         },
 
+        content: {
+            padding: 0,
+            margin: '0 auto',
+            maxWidth: '500px',
+            background: 'black'
+            // border: '1px solid white'
+        },
         button: {
             padding: '1rem',
             marginTop: '2rem',
@@ -25,14 +26,16 @@ function Home() {
     }
     return (
         <main style={styles.main}>
-            <h1>
-                Greg Riss - Web Developer
+            <div style={styles.content}>
+                <h1>
+                    Greg Riss - Web Developer
             </h1>
-            <Link to="/portfolio">
-                <button style={styles.button}>
-                    View My Projects
+                <Link to="/portfolio">
+                    <button style={styles.button}>
+                        View My Projects
                     </button>
-            </Link>
+                </Link>
+            </div>
         </main>
     )
 }
