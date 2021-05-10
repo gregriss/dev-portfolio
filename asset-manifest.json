@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.c850b549.chunk.css",
-    "main.js": "/dev-portfolio/static/js/main.a15fca96.chunk.js",
-    "main.js.map": "/dev-portfolio/static/js/main.a15fca96.chunk.js.map",
+    "main.css": "/dev-portfolio/static/css/main.5606803e.chunk.css",
+    "main.js": "/dev-portfolio/static/js/main.f1661488.chunk.js",
+    "main.js.map": "/dev-portfolio/static/js/main.f1661488.chunk.js.map",
     "runtime-main.js": "/dev-portfolio/static/js/runtime-main.85ab9e8b.js",
     "runtime-main.js.map": "/dev-portfolio/static/js/runtime-main.85ab9e8b.js.map",
     "static/js/2.637a6643.chunk.js": "/dev-portfolio/static/js/2.637a6643.chunk.js",
@@ -10,15 +10,16 @@
     "static/js/3.a4e178b6.chunk.js": "/dev-portfolio/static/js/3.a4e178b6.chunk.js",
     "static/js/3.a4e178b6.chunk.js.map": "/dev-portfolio/static/js/3.a4e178b6.chunk.js.map",
     "index.html": "/dev-portfolio/index.html",
-    "static/css/main.c850b549.chunk.css.map": "/dev-portfolio/static/css/main.c850b549.chunk.css.map",
+    "static/css/main.5606803e.chunk.css.map": "/dev-portfolio/static/css/main.5606803e.chunk.css.map",
     "static/js/2.637a6643.chunk.js.LICENSE.txt": "/dev-portfolio/static/js/2.637a6643.chunk.js.LICENSE.txt",
     "static/media/burger-home.8ded0b51.png": "/dev-portfolio/static/media/burger-home.8ded0b51.png",
-    "static/media/code-icon-lg.8a7d2307.svg": "/dev-portfolio/static/media/code-icon-lg.8a7d2307.svg",
+    "static/media/code-icon-lg.32f29ee9.svg": "/dev-portfolio/static/media/code-icon-lg.32f29ee9.svg",
     "static/media/envelope-icon-sm.770ad005.svg": "/dev-portfolio/static/media/envelope-icon-sm.770ad005.svg",
-    "static/media/envelope-icon.112b5caf.svg": "/dev-portfolio/static/media/envelope-icon.112b5caf.svg",
+    "static/media/envelope-icon.cc911914.svg": "/dev-portfolio/static/media/envelope-icon.cc911914.svg",
     "static/media/gamebops-home.614b904c.png": "/dev-portfolio/static/media/gamebops-home.614b904c.png",
     "static/media/github-icon-lg.59b4f331.svg": "/dev-portfolio/static/media/github-icon-lg.59b4f331.svg",
     "static/media/linkedin-icon.7deb2af9.svg": "/dev-portfolio/static/media/linkedin-icon.7deb2af9.svg",
+    "static/media/App.css": "/dev-portfolio/static/media/niveri-code-img.b0f42e27.jpg",
     "static/media/pathfinder-in-use.ad88220c.png": "/dev-portfolio/static/media/pathfinder-in-use.ad88220c.png",
     "static/media/pdf-icon.ce517cad.svg": "/dev-portfolio/static/media/pdf-icon.ce517cad.svg",
     "static/media/screenshot.07ccbc2e.png": "/dev-portfolio/static/media/screenshot.07ccbc2e.png",
@@ -28,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.85ab9e8b.js",
     "static/js/2.637a6643.chunk.js",
-    "static/css/main.c850b549.chunk.css",
-    "static/js/main.a15fca96.chunk.js"
+    "static/css/main.5606803e.chunk.css",
+    "static/js/main.f1661488.chunk.js"
   ]
 }
